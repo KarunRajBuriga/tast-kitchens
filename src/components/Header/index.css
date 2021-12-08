@@ -1,0 +1,139 @@
+.header-desktop-container {
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  height: 10vh;
+}
+@media screen and (max-width: 768px) {
+  .header-desktop-container {
+    display: none;
+  }
+}
+
+.header-logo-name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo {
+  width: 53px;
+  height: 43px;
+  color: #f7931e;
+}
+@media screen and (max-width: 768px) {
+  .header-logo {
+    height: 30px;
+    width: 40px;
+  }
+}
+.header-app-name {
+  height: 32px;
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+}
+@media screen and (max-width: 768px) {
+  .header-app-name {
+    font-size: 18px;
+  }
+}
+
+.navbar-desktop-routers-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  list-style-type: none;
+  margin: 10px;
+}
+.nav-menu-item {
+  font-family: 'Roboto';
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #475569;
+}
+.logout-desktop-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-color: #f7931e;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  border: none;
+  color: #ffffff;
+}
+
+.header-mobile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  max-height: 20vh;
+  background-color: #f8fafc;
+}
+
+@media screen and (min-width: 768px) {
+  .header-mobile-container {
+    display: none;
+  }
+}
+.header-mobile-logo-dropdown-container {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  margin-bottom: 0px;
+}
+.routes-bar-container {
+  height: 10vh;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding-right: 10vh;
+}
+.cancel-logo {
+  background: #334155;
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+  border-radius: 15px;
+  border: none;
+  border-width: 0px;
+}

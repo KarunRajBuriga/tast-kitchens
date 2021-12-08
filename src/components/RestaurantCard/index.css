@@ -1,0 +1,161 @@
+/* .restaurant-item {
+  width: 32vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant-item-styling {
+  text-decoration: none;
+}
+
+.rating {
+  display: flex;
+  height: 12px;
+  align-items: center;
+  text-decoration: none;
+}
+.restaurant-img {
+  width: 160px;
+  height: 120px;
+  left: 165px;
+  top: 216px;
+  border-radius: 8px;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.restaurant-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  color: #334155;
+}
+
+.restaurant-menu {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #64748b;
+}
+
+.star-designing {
+  font-size: 18px;
+  color: #ffcc00;
+}
+
+.restaurant-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 577px) {
+  .restaurant-name {
+    font-size: 12px;
+  }
+
+  .restaurant-menu {
+    font-size: 9px;
+  }
+
+  .restaurant-rating {
+    font-size: 10px;
+  }
+
+  .restaurant-item {
+    margin-left: 30%;
+  }
+} */
+
+.restaurant-item {
+  list-style-type: none;
+  margin-bottom: 48px;
+  width: 40%;
+  height: 200px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .restaurant-item {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 150px;
+    flex-wrap: wrap;
+  }
+}
+.link-item {
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+.restaurant-image {
+  height: 100%;
+  width: 45%;
+  margin-right: 16px;
+  border-radius: 8px;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0px;
+}
+.ratings-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.restaurant-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-bottom: 0px;
+}
+.restaurant-type {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #64748b;
+  margin-bottom: 0px;
+}
+.star-icon {
+  color: #ffcc00;
+  font-size: 20px;
+  margin-right: 4px;
+}
+.rating-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 18px;
+  color: #1e293b;
+  margin-right: 5px;
+}
+.total-ratings {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #64748b;
+}
